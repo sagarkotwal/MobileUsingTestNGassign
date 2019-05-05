@@ -30,6 +30,7 @@ public class Mobile
 	  @Test (priority=1)
 	  public void clickOnMobile() 
 	  {
+		  System.out.println("Sagar kotwal");
 		  System.out.println("In th 1st Test");
 		  driver.findElement(By.cssSelector("div[class='page-header-container'] div[id='header-nav'] a")).click();
 		  driver.findElement(By.cssSelector("div[class='main'] div[class='col-main'] div[class='toolbar'] a")).click();
