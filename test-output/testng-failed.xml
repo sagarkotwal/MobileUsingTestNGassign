@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Assignment4.Mobile">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="dbConnectionClose"/>
+          <include name="getAllCookies"/>
+          <include name="deleteAllCookies"/>
+          <include name="verifyWindows"/>
+          <include name="openBrowser"/>
+          <include name="screenshot"/>
+          <include name="enterApplictionURL"/>
+          <include name="maximizeBrowser"/>
+        </methods>
+      </class> <!-- Assignment4.Mobile -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
